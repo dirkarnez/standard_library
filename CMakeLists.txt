@@ -29,5 +29,5 @@ SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
 add_executable(${PROJECT_NAME}
     "src/cpp/main.cpp"
     "src/asm/factorial.asm"
-    "src/asm/heapalloc.asm"
+    "src/asm/equal.asm"
 )
