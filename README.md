@@ -2,7 +2,10 @@ standard_library
 ======================
 ### TODOs
 - [x] CMake do the `.obj` compilation
-
+- [ ] struct
+- [ ] array
+- [ ] algebra
+ 
 ### Reference
 - [NASM - The Netwide Assembler](https://www.nasm.us/xdoc/2.15.05/html/nasmdoc0.html)
 - [https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
