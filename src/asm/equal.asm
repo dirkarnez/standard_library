@@ -8,7 +8,7 @@ global compare
 compare:
     push    rbp                 ; Set up a stack frame for the function
     mov    rbp, rsp             ; Continuing the linked list here, by pointing rbp to this stack frame
-    sub   RSP, 16                                 ; Align the stack to a multiple of 16 bytes
+    sub   RSP, 16                                 ; 2 * 8 bytes (Not sure)
     sub   RSP, 32                                  ; 32 bytes of shadow space
 
     mov    [rsp + 8 ], rcx
