@@ -5,7 +5,35 @@ standard_library
 - [ ] struct
 - [ ] array
 - [ ] algebra
- 
+
+### Notes
+- Algebra
+ - `+`
+  - ```asm
+    mov     eax, DWORD PTR b$[rsp]
+    mov     ecx, DWORD PTR a$[rsp]
+    add     ecx, eax
+    mov     eax, ecx
+    ```
+ - `-`
+  - ```asm
+    mov     eax, DWORD PTR b$[rsp]
+    mov     ecx, DWORD PTR a$[rsp]
+    sub     ecx, eax
+    mov     eax, ecx
+    ```
+ - `*`
+  - ```asm
+    mov     eax, DWORD PTR a$[rsp]
+    imul    eax, DWORD PTR b$[rsp]
+    ```
+ - `/`
+  - ```asm
+    mov     eax, DWORD PTR a$[rsp]
+    cdq
+    idiv    DWORD PTR b$[rsp]
+    ```
+
 ### Reference
 - [NASM - The Netwide Assembler](https://www.nasm.us/xdoc/2.15.05/html/nasmdoc0.html)
 - [https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
