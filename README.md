@@ -33,7 +33,8 @@ standard_library
     cdq
     idiv    DWORD PTR b$[rsp]
     ```
-
+- networking
+ - [dirkarnez/winsock2-playground](https://github.com/dirkarnez/winsock2-playground)
 ### Reference
 - [NASM - The Netwide Assembler](https://www.nasm.us/xdoc/2.15.05/html/nasmdoc0.html)
 - [https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
