@@ -43,6 +43,8 @@ standard_library
   - [**gmh5225/NT-Projects: NTPROJECTS=public, you should order standards from ECMA and ANSI, have samples and scan Microsoft's build server**](https://github.com/gmh5225/NT-Projects)
   - [**Sysinternals/SysmonCommon: The common parts of the Sysinternals Sysmon tool shared between the Windows and Linux versions.**](https://github.com/Sysinternals/SysmonCommon)
   - [**ReneNyffenegger/Windows-development: Playground to experiment with developping applications for Windows.**](https://github.com/ReneNyffenegger/Windows-development)
+- Machine learning
+  - [dirkarnez/convolution-typescript](https://github.com/dirkarnez/convolution-typescript) 
 ### Reference
 - [NASM - The Netwide Assembler](https://www.nasm.us/xdoc/2.15.05/html/nasmdoc0.html)
 - [https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
